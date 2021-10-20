@@ -1,0 +1,27 @@
+{
+  "name": "LNModuleProtocol",
+  "version": "0.1.0",
+  "summary": "A short description of LNModuleProtocol.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/NoNameOrganazation",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dongjianxiong": "jianxiong20090919@126.com"
+  },
+  "source": {
+    "git": "https://github.com/NoNameOrganazation/LNModuleProtocol.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LNModuleProtocol/Classes/**/*",
+  "dependencies": {
+    "LNModuleCore": [
+      "0.1.2"
+    ]
+  }
+}

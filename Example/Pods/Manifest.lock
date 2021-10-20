@@ -1,0 +1,23 @@
+PODS:
+  - LNModuleCore (0.1.2)
+  - LNModuleProtocol (0.1.0):
+    - LNModuleCore (= 0.1.2)
+
+DEPENDENCIES:
+  - LNModuleProtocol (from `../`)
+
+SPEC REPOS:
+  https://github.com/NoNameOrganazation/LNSpec.git:
+    - LNModuleCore
+
+EXTERNAL SOURCES:
+  LNModuleProtocol:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LNModuleCore: 76bb3c1f2694bbc39a78e3d59d3203f8fa8a308a
+  LNModuleProtocol: a21a1d28c7835933f003b334ee12a975f8da9c5b
+
+PODFILE CHECKSUM: 30c88c1f8f4b310242f953b83b546271e3db63da
+
+COCOAPODS: 1.10.0

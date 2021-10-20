@@ -7,6 +7,7 @@
 //
 
 #import "LNViewController.h"
+#import "LNFeedModuleProtocol.h"
 
 @interface LNViewController ()
 
@@ -17,7 +18,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    id<LNFeedModuleProtocol> feedModule = (id)[[LNModuleManager sharedInstance] impInstanceForProtocol:@protocol(LNFeedModuleProtocol)];
+    if (feedModule) {
+        UIViewController *feedVc = [feedModule getRecommendFeedViewController];
+        [self presentViewController:feedVc animated:YES completion:nil];
+    }
 }
 
 - (void)didReceiveMemoryWarning

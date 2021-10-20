@@ -1,4 +1,6 @@
 use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/NoNameOrganazation/LNSpec.git'
 
 platform :ios, '9.0'
 
