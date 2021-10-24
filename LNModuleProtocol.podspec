@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'LNModuleProtocol/Classes/**/*'
-  s.dependency 'LNModuleCore', '0.1.2'
+
   # s.resource_bundles = {
   #   'LNModuleProtocol' => ['LNModuleProtocol/Assets/*.png']
   # }

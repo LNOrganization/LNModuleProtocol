@@ -6,7 +6,7 @@ platform :ios, '9.0'
 
 target 'LNModuleProtocol_Example' do
   pod 'LNModuleProtocol', :path => '../'
-
+  pod 'LNModuleCore'
   target 'LNModuleProtocol_Tests' do
     inherit! :search_paths
 

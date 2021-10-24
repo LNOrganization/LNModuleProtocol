@@ -1,9 +1,9 @@
 PODS:
   - LNModuleCore (0.1.2)
-  - LNModuleProtocol (0.1.0):
-    - LNModuleCore (= 0.1.2)
+  - LNModuleProtocol (0.1.0)
 
 DEPENDENCIES:
+  - LNModuleCore
   - LNModuleProtocol (from `../`)
 
 SPEC REPOS:
@@ -16,8 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   LNModuleCore: 76bb3c1f2694bbc39a78e3d59d3203f8fa8a308a
-  LNModuleProtocol: a21a1d28c7835933f003b334ee12a975f8da9c5b
+  LNModuleProtocol: d574d53f3503cf63412cc7f8ce5223fe2924799c
 
-PODFILE CHECKSUM: 30c88c1f8f4b310242f953b83b546271e3db63da
+PODFILE CHECKSUM: 359dd3a814292efd0086804d36f0622b327a2274
 
 COCOAPODS: 1.10.0

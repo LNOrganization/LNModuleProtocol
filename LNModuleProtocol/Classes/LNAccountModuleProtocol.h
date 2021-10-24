@@ -8,14 +8,16 @@
 #import <Foundation/Foundation.h>
 #import "LNModuleProtocol.h"
 
-typedef void(^LNLoginCompletion)(NSDictionary *accountInfo, BOOL isSucceed);
+
+extern const NSString *LNAccountLoginSucceedNotification;
+extern const NSString *LNAccountLoginSucceedNotification;
+
+typedef void(^LNLoginCompletion)(NSDictionary *accountInfo, NSString * errMsg);
 
 
-@protocol LNLoginModuleProtocol <LNModuleBaseProtocol>
+@protocol LNAccountModuleProtocol <LNModuleBaseProtocol>
 
 - (BOOL)isLogin;
-
-- (BOOL)showLoginPageIfNeed;
 
 - (BOOL)login:(LNLoginCompletion)completion;
 

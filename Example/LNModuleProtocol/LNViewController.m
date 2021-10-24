@@ -7,7 +7,8 @@
 //
 
 #import "LNViewController.h"
-#import "LNFeedModuleProtocol.h"
+#import "LNModuleProtocol.h"
+#import <LNModuleCore/LNModuleCore.h>
 
 @interface LNViewController ()
 
@@ -27,6 +28,11 @@
         UIViewController *feedVc = [feedModule getRecommendFeedViewController];
         [self presentViewController:feedVc animated:YES completion:nil];
     }
+    
+    id<LNAccountModuleProtocol> loginModule = (id)[[LNModuleManager sharedInstance] impInstanceForProtocol:@protocol(LNAccountModuleProtocol)];
+    [loginModule login:^(NSDictionary *accountInfo, NSString *errMsg) {
+        
+    }];
 }
 
 - (void)didReceiveMemoryWarning
