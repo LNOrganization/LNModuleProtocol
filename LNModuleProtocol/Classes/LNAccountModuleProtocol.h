@@ -26,11 +26,13 @@ typedef void(^LNLogotCompletion)();
 - (void)getAccountInfo:(LNLoginCompletion)completion;
 
 
-- (void)registerLoginCompletionNotify:(LNLoginCompletion)completion;
+- (void)registerLoginCompletionNotify:(LNLoginCompletion)completion
+                               forKey:(NSString *)key;
 - (void)removeLoginNotificationForKey:(NSString *)key;
 
 
-- (void)registerLogoutCompletionNotify:(LNLogotCompletion)completion;
+- (void)registerLogoutCompletionNotify:(LNLogotCompletion)completion
+                                forKey:(NSString *)key;
 - (void)removeLogoutNotificationForKey:(NSString *)key;
 
 @end
