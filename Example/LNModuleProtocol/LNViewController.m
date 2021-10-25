@@ -16,6 +16,12 @@
 
 @implementation LNViewController
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(_logoutAction:) name:LNAccountLogoutFinishNotification object:nil];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -30,10 +36,19 @@
     }
     
     id<LNAccountModuleProtocol> loginModule = (id)[[LNModuleManager sharedInstance] impInstanceForProtocol:@protocol(LNAccountModuleProtocol)];
-    [loginModule login:^(NSDictionary *accountInfo, NSString *errMsg) {
+    [loginModule loginIfNeed:^(NSDictionary *accountInfo, NSString *errMsg) {
         
     }];
 }
+
+
+#pragma mark - notification
+//登出通知方法
+- (void)_logoutAction:(NSNotification *)notification
+{
+    NSLog(@"Did logout");
+}
+
 
 - (void)didReceiveMemoryWarning
 {

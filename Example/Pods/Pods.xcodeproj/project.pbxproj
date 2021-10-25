@@ -61,21 +61,21 @@
 
 /* Begin PBXFileReference section */
 		040A120D7C5B217FC68A2EAB6231494E /* LNModuleProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LNModuleProtocol.h; path = LNModuleProtocol/Classes/LNModuleProtocol.h; sourceTree = "<group>"; };
-		08DDB9041B7C1CA040C633215BB8159A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		08DDB9041B7C1CA040C633215BB8159A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		094B08A21BCA8690C36D6CEA85B70471 /* LNModuleCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LNModuleCore.debug.xcconfig; sourceTree = "<group>"; };
 		0CECA4F3559F9FCEA3FD668885D16FD8 /* Pods-LNModuleProtocol_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LNModuleProtocol_Example-dummy.m"; sourceTree = "<group>"; };
-		0D8A135DBEA32038E90DC09F52B7BD7D /* Pods_LNModuleProtocol_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LNModuleProtocol_Tests.framework; path = "Pods-LNModuleProtocol_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D8A135DBEA32038E90DC09F52B7BD7D /* Pods_LNModuleProtocol_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LNModuleProtocol_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		167F9BABC1038BEE5EF7E1ED389EC3B1 /* LNAccountModuleProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LNAccountModuleProtocol.h; path = LNModuleProtocol/Classes/LNAccountModuleProtocol.h; sourceTree = "<group>"; };
 		1C6A28687A3A9EE81A4ECDB4E7CD0CFA /* Pods-LNModuleProtocol_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LNModuleProtocol_Example-umbrella.h"; sourceTree = "<group>"; };
 		20915AA4847EC9FB6580B14425893B76 /* Pods-LNModuleProtocol_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LNModuleProtocol_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2299B9E63B881FB78711AAF19F7CC496 /* Pods_LNModuleProtocol_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LNModuleProtocol_Example.framework; path = "Pods-LNModuleProtocol_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2299B9E63B881FB78711AAF19F7CC496 /* Pods_LNModuleProtocol_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LNModuleProtocol_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		267DE5CACEABDB89B1C2BE22936F91C8 /* Pods-LNModuleProtocol_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LNModuleProtocol_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		282BE03BCCCEC1CEB61FFD5D17F24C14 /* LNModuleCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LNModuleCore-dummy.m"; sourceTree = "<group>"; };
 		31B60251BDBE88E2FA8A0785F148BC86 /* LNModuleAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LNModuleAppDelegate.h; path = LNModuleCore/Classes/LNModuleAppDelegate.h; sourceTree = "<group>"; };
 		3824B333D2123E3DD17F58EB01FB5782 /* LNModuleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LNModuleManager.m; path = LNModuleCore/Classes/LNModuleManager.m; sourceTree = "<group>"; };
 		3DCA342018AF5D3103A28A8364E8AAAA /* LNModuleCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LNModuleCore.h; path = LNModuleCore/Classes/LNModuleCore.h; sourceTree = "<group>"; };
 		435AB39B4EBB9A211E0D2704AC34B8EB /* LNModuleProtocol-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LNModuleProtocol-Info.plist"; sourceTree = "<group>"; };
-		48AED3150945F7052D0E2667B953CD71 /* LNModuleCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LNModuleCore.framework; path = LNModuleCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48AED3150945F7052D0E2667B953CD71 /* LNModuleCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LNModuleCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		490B9FEA6F5577208BDFA28C94E0414D /* Pods-LNModuleProtocol_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LNModuleProtocol_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4F0C20CB096F44A5895855350D07A259 /* LNModuleBaseProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LNModuleBaseProtocol.h; path = LNModuleCore/Classes/LNModuleBaseProtocol.h; sourceTree = "<group>"; };
 		51C0A358F000373D2979937A7D2EDB06 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LNModuleCore/Classes/ReplaceMe.m; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 		59AFAF6C22FAB58866C4658FBE50936C /* LNVideoModuleProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LNVideoModuleProtocol.h; path = LNModuleProtocol/Classes/LNVideoModuleProtocol.h; sourceTree = "<group>"; };
 		62B47D63EDEB47177F17883F60B08CFB /* Pods-LNModuleProtocol_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LNModuleProtocol_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6757F840D3D626B570B9C1732CC9994F /* LNModuleBaseProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LNModuleBaseProtocol.h; path = LNModuleProtocol/Classes/LNModuleBaseProtocol.h; sourceTree = "<group>"; };
-		6C11DDA615D28407390C6BFB99E9E548 /* LNModuleProtocol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LNModuleProtocol.framework; path = LNModuleProtocol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C11DDA615D28407390C6BFB99E9E548 /* LNModuleProtocol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LNModuleProtocol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CDBC89DF317F11151E66EA8A6272DD8 /* LNModuleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LNModuleManager.h; path = LNModuleCore/Classes/LNModuleManager.h; sourceTree = "<group>"; };
 		7039CA1B63F688EE917418898272614A /* LNModuleProtocol-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LNModuleProtocol-umbrella.h"; sourceTree = "<group>"; };
 		72B89CADD740BD6A63304FCC8CD30543 /* Pods-LNModuleProtocol_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LNModuleProtocol_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 		910617EC7034A48E54449DFB5870845F /* LNModuleCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LNModuleCore-umbrella.h"; sourceTree = "<group>"; };
 		983CD6898EA4C7D37E23F0169C9F9654 /* LNModuleCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LNModuleCore.modulemap; sourceTree = "<group>"; };
 		9A7D533B395E7B6BF97135D8E8E6FD29 /* LNModuleAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LNModuleAppDelegate.m; path = LNModuleCore/Classes/LNModuleAppDelegate.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E21B60C5B9C95CB1E327C29B3809936 /* LNModuleProtocol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LNModuleProtocol.debug.xcconfig; sourceTree = "<group>"; };
 		A5B3DFB5143C2684F92D5B87AB860EA2 /* Pods-LNModuleProtocol_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LNModuleProtocol_Tests.modulemap"; sourceTree = "<group>"; };
 		A843FAF286BA943015B7311AE5B97073 /* Pods-LNModuleProtocol_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LNModuleProtocol_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -107,10 +107,10 @@
 		C07F93FFD5A6C33AA76C0AA9B7CB1827 /* Pods-LNModuleProtocol_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LNModuleProtocol_Tests-Info.plist"; sourceTree = "<group>"; };
 		C53886BC7062EC2C884DEED02AB7E87E /* Pods-LNModuleProtocol_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LNModuleProtocol_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D04A72BD0960C6745A76BAB42BFE96E1 /* Pods-LNModuleProtocol_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LNModuleProtocol_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D5FE57A46A6B3994C4FEFCAC9F60D306 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D5FE57A46A6B3994C4FEFCAC9F60D306 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D9595FB52520F0D578EA5531FFFAF04F /* Pods-LNModuleProtocol_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LNModuleProtocol_Example.modulemap"; sourceTree = "<group>"; };
 		DFE9F919F0783249913A6555DA8A481B /* LNModuleProtocol-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LNModuleProtocol-dummy.m"; sourceTree = "<group>"; };
-		E0CC5CE77A007C00D7EE7FC29F4633FC /* LNModuleProtocol.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LNModuleProtocol.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E0CC5CE77A007C00D7EE7FC29F4633FC /* LNModuleProtocol.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LNModuleProtocol.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F34E9D852F74048B40A7165A713BEB24 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LNModuleProtocol/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		F633D329BDDB49AA9C1BFF4361F91228 /* Pods-LNModuleProtocol_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LNModuleProtocol_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FBD8269DA9A416E278AAAEA349648C8D /* LNModuleProtocol-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LNModuleProtocol-prefix.pch"; sourceTree = "<group>"; };
@@ -201,7 +201,6 @@
 				51C0A358F000373D2979937A7D2EDB06 /* ReplaceMe.m */,
 				9F3FF62986142F4E091BB05ED4544939 /* Support Files */,
 			);
-			name = LNModuleCore;
 			path = LNModuleCore;
 			sourceTree = "<group>";
 		};
@@ -216,11 +215,11 @@
 		3A24D4D5D5C2670DFA82A12C01653863 /* LNModuleProtocol */ = {
 			isa = PBXGroup;
 			children = (
+				040A120D7C5B217FC68A2EAB6231494E /* LNModuleProtocol.h */,
+				6757F840D3D626B570B9C1732CC9994F /* LNModuleBaseProtocol.h */,
 				167F9BABC1038BEE5EF7E1ED389EC3B1 /* LNAccountModuleProtocol.h */,
 				7467DBCA72474F9662DD6D8C92A40F0D /* LNFeedModuleProtocol.h */,
 				54CC14C0761E67AE034D1FD62461E0F3 /* LNLiveModuleProtocol.h */,
-				6757F840D3D626B570B9C1732CC9994F /* LNModuleBaseProtocol.h */,
-				040A120D7C5B217FC68A2EAB6231494E /* LNModuleProtocol.h */,
 				59AFAF6C22FAB58866C4658FBE50936C /* LNVideoModuleProtocol.h */,
 				F34E9D852F74048B40A7165A713BEB24 /* ReplaceMe.m */,
 				EF672A816BB99019905AFAE08799DF3A /* Pod */,
@@ -940,8 +939,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

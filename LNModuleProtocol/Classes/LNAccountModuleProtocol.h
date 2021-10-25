@@ -9,8 +9,8 @@
 #import "LNModuleProtocol.h"
 
 
-extern const NSString *LNAccountLoginSucceedNotification;
-extern const NSString *LNAccountLoginSucceedNotification;
+extern NSString * const LNAccountLoginSucceedNotification;
+extern NSString * const LNAccountLogoutFinishNotification;
 
 typedef void(^LNLoginCompletion)(NSDictionary *accountInfo, NSString * errMsg);
 
@@ -19,13 +19,10 @@ typedef void(^LNLoginCompletion)(NSDictionary *accountInfo, NSString * errMsg);
 
 - (BOOL)isLogin;
 
-- (BOOL)login:(LNLoginCompletion)completion;
+- (BOOL)loginIfNeed:(LNLoginCompletion)completion;
 
-- (void)logout:(LNLoginCompletion)completion;;
+- (void)logout;
 
-- (void)registerLoginCompletionNotify:(LNLoginCompletion)completion;
-
-- (void)registerLogoutCompletionNotify:(LNLoginCompletion)completion;
-
+- (void)getAccountInfo:(LNLoginCompletion)completion;
 
 @end
