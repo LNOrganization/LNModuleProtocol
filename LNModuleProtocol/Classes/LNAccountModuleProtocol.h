@@ -13,7 +13,7 @@ extern NSString * const LNAccountLoginSucceedNotification;
 extern NSString * const LNAccountLogoutFinishNotification;
 
 typedef void(^LNLoginCompletion)(NSDictionary *accountInfo, NSString * errMsg);
-
+typedef void(^LNLogotCompletion)();
 
 @protocol LNAccountModuleProtocol <LNModuleBaseProtocol>
 
@@ -24,5 +24,13 @@ typedef void(^LNLoginCompletion)(NSDictionary *accountInfo, NSString * errMsg);
 - (void)logout;
 
 - (void)getAccountInfo:(LNLoginCompletion)completion;
+
+
+- (void)registerLoginCompletionNotify:(LNLoginCompletion)completion;
+- (void)removeLoginNotificationForKey:(NSString *)key;
+
+
+- (void)registerLogoutCompletionNotify:(LNLogotCompletion)completion;
+- (void)removeLogoutNotificationForKey:(NSString *)key;
 
 @end
