@@ -62,6 +62,26 @@ __attribute__((constructor)) void addModulAccountModule(void){
     NSLog(@"Invoke method:%s",__func__);
 }
 
+- (void)registerLoginCompletionNotify:(LNLoginCompletion)completion forKey:(NSString *)key {
+    
+}
+
+
+- (void)registerLogoutCompletionNotify:(LNLogotCompletion)completion forKey:(NSString *)key {
+    
+}
+
+
+- (void)removeLoginNotificationForKey:(NSString *)key {
+    
+}
+
+
+- (void)removeLogoutNotificationForKey:(NSString *)key {
+    
+}
+
+
 
 #pragma mark - 私有方法
 /**
