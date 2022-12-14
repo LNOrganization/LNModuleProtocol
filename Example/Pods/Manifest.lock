@@ -1,6 +1,6 @@
 PODS:
-  - LNModuleCore (0.1.7)
-  - LNModuleProtocol (0.1.3):
+  - LNModuleCore (0.1.9)
+  - LNModuleProtocol (0.1.4):
     - LNModuleCore
 
 DEPENDENCIES:
@@ -15,9 +15,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LNModuleCore: 91e1c96283b76b4e2b30ba74d0f9726b1fb1f6b7
-  LNModuleProtocol: bd07578d123f9c8adc0c9297c64776b351405a87
+  LNModuleCore: d37faf840963a9ccc7e6830331e1f340d86ac866
+  LNModuleProtocol: 9620a9777318488afa865543a884fdb1398101ad
 
 PODFILE CHECKSUM: f5b4c4d563281681da5983cd071e41d235ced2b9
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.11.3

@@ -39,7 +39,7 @@ __attribute__((constructor)) void addModulAccountModule(void){
     return @"0.1.2";
 }
 
-- (void)getAccountInfo:(LNLoginCompletion)completion {
+- (void)getAccountInfo:(LNLoginBlock)completion {
     if (completion) {
         completion([NSDictionary dictionary], nil);
     }
@@ -49,7 +49,7 @@ __attribute__((constructor)) void addModulAccountModule(void){
     return NO;
 }
 
-- (BOOL)loginIfNeed:(LNLoginCompletion)completion {
+- (BOOL)loginIfNeed:(LNLoginBlock)completion {
     if ([self isLogin]) {
         return YES;
     }else{
@@ -58,36 +58,32 @@ __attribute__((constructor)) void addModulAccountModule(void){
     }
 }
 
-- (void)logout {
-    NSLog(@"Invoke method:%s",__func__);
-}
-
-- (void)registerLoginCompletionNotify:(LNLoginCompletion)completion forKey:(NSString *)key {
+- (void)logout
+{
     
 }
 
+- (NSDictionary *)getLoginUserInfo
+{
+    return nil;
+}
 
-- (void)registerLogoutCompletionNotify:(LNLogotCompletion)completion forKey:(NSString *)key {
+- (void)addObserver:(id)observer forLoginBlock:(LNLoginBlock)block
+{
     
 }
 
-
-- (void)removeLoginNotificationForKey:(NSString *)key {
+- (void)addObserver:(id)observer forLogoutBlock:(LNLogoutBlock)block
+{
     
 }
-
-
-- (void)removeLogoutNotificationForKey:(NSString *)key {
-    
-}
-
 
 
 #pragma mark - 私有方法
 /**
  * 展示登录页面
  */
-- (void)_showLoginPage:(LNLoginCompletion)completion
+- (void)_showLoginPage:(LNLoginBlock)completion
 {
     UIViewController *loginVc = [[UIViewController alloc] init];
     [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:loginVc animated:YES completion:nil];

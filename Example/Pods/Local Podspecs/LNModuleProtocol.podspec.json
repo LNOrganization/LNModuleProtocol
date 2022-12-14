@@ -1,9 +1,9 @@
 {
   "name": "LNModuleProtocol",
-  "version": "0.1.3",
-  "summary": "A short description of LNModuleProtocol.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/NoNameOrganazation",
+  "version": "0.1.4",
+  "summary": "通信协议组件",
+  "description": "通信协议组件，用于维护各个组件间通信的协议（接口），方便各组件间通信",
+  "homepage": "https://github.com/NoNameOrganazation/LNModuleProtocol",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/NoNameOrganazation/LNModuleProtocol.git",
-    "tag": "0.1.3"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "9.0"

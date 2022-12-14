@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LNModuleProtocol'
   s.version          = '0.1.4'
-  s.summary          = 'A short description of LNModuleProtocol.'
+  s.summary          = '通信协议组件'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+   通信协议组件，用于维护各个组件间通信的协议（接口），方便各组件间通信
                        DESC
 
-  s.homepage         = 'https://github.com/NoNameOrganazation'
+  s.homepage         = 'https://github.com/NoNameOrganazation/LNModuleProtocol'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'dongjianxiong' => 'jianxiong20090919@126.com' }

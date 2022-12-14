@@ -7,8 +7,7 @@
 //
 
 #import "LNViewController.h"
-#import "LNModuleProtocol.h"
-#import <LNModuleCore/LNModuleCore.h>
+#import <LNModuleProtocol/LNModuleProtocol.h>
 
 @interface LNViewController ()
 
@@ -19,7 +18,7 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(_logoutAction:) name:LNAccountLogoutFinishNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(_logoutAction:) name:LNAccountLogoutNotification object:nil];
 }
 
 - (void)viewDidLoad
@@ -36,7 +35,7 @@
     }
     
     id<LNAccountModuleProtocol> loginModule = (id)[[LNModuleManager sharedInstance] impInstanceForProtocol:@protocol(LNAccountModuleProtocol)];
-    [loginModule loginIfNeed:^(NSDictionary *accountInfo, NSString *errMsg) {
+    [loginModule loginIfNeed:^(NSDictionary *userInfo, NSError *errMsg) {
         
     }];
 }

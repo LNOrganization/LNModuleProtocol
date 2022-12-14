@@ -24,6 +24,9 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B84ACEFA2725D27B002664E2 /* LNAccountModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B84ACEF92725D27B002664E2 /* LNAccountModule.m */; };
+		B84ECE01294A43FC00FB57CA /* pod_release.sh in Resources */ = {isa = PBXBuildFile; fileRef = B84ECDFE294A43FC00FB57CA /* pod_release.sh */; };
+		B84ECE02294A43FC00FB57CA /* pod_local_check.sh in Resources */ = {isa = PBXBuildFile; fileRef = B84ECDFF294A43FC00FB57CA /* pod_local_check.sh */; };
+		B84ECE03294A43FC00FB57CA /* pod_remote_check.sh in Resources */ = {isa = PBXBuildFile; fileRef = B84ECE00294A43FC00FB57CA /* pod_remote_check.sh */; };
 		CA64AFF79C21B6604CC82D31 /* Pods_LNModuleProtocol_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F4DE2F69CF37A8122689B4 /* Pods_LNModuleProtocol_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +72,9 @@
 		B46A05E976156CFCDB09B792 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B84ACEF82725D27B002664E2 /* LNAccountModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNAccountModule.h; sourceTree = "<group>"; };
 		B84ACEF92725D27B002664E2 /* LNAccountModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAccountModule.m; sourceTree = "<group>"; };
+		B84ECDFE294A43FC00FB57CA /* pod_release.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = pod_release.sh; sourceTree = "<group>"; };
+		B84ECDFF294A43FC00FB57CA /* pod_local_check.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = pod_local_check.sh; sourceTree = "<group>"; };
+		B84ECE00294A43FC00FB57CA /* pod_remote_check.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = pod_remote_check.sh; sourceTree = "<group>"; };
 		DB6E4F98301FFA0303A753BA /* Pods-LNModuleProtocol_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNModuleProtocol_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LNModuleProtocol_Tests/Pods-LNModuleProtocol_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,6 +107,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				B84ECDFD294A43FC00FB57CA /* pod_script */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for LNModuleProtocol */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -209,6 +216,17 @@
 			name = AccountModule;
 			sourceTree = "<group>";
 		};
+		B84ECDFD294A43FC00FB57CA /* pod_script */ = {
+			isa = PBXGroup;
+			children = (
+				B84ECDFE294A43FC00FB57CA /* pod_release.sh */,
+				B84ECDFF294A43FC00FB57CA /* pod_local_check.sh */,
+				B84ECE00294A43FC00FB57CA /* pod_remote_check.sh */,
+			);
+			name = pod_script;
+			path = ../pod_script;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -290,6 +308,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B84ECE01294A43FC00FB57CA /* pod_release.sh in Resources */,
+				B84ECE02294A43FC00FB57CA /* pod_local_check.sh in Resources */,
+				B84ECE03294A43FC00FB57CA /* pod_remote_check.sh in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
