@@ -1,6 +1,6 @@
 PODS:
   - LNModuleCore (0.1.9)
-  - LNModuleProtocol (0.1.4):
+  - LNModuleProtocol (0.1.5):
     - LNModuleCore
 
 DEPENDENCIES:
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   LNModuleCore: d37faf840963a9ccc7e6830331e1f340d86ac866
-  LNModuleProtocol: 9620a9777318488afa865543a884fdb1398101ad
+  LNModuleProtocol: 2090a650bbeca822219a998ef1ef8f034f5b099a
 
 PODFILE CHECKSUM: f5b4c4d563281681da5983cd071e41d235ced2b9
 

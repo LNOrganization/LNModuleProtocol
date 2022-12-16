@@ -1,6 +1,6 @@
 {
   "name": "LNModuleProtocol",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "summary": "通信协议组件",
   "description": "通信协议组件，用于维护各个组件间通信的协议（接口），方便各组件间通信",
   "homepage": "https://github.com/NoNameOrganazation/LNModuleProtocol",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/NoNameOrganazation/LNModuleProtocol.git",
-    "tag": "0.1.4"
+    "tag": "0.1.5"
   },
   "platforms": {
     "ios": "9.0"
